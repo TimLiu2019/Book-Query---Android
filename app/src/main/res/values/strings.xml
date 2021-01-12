@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Project - Qiting Liu 000766343</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string-array name="courst_list">
+        <item>COMP-10062</item>
+        <item>COMP-10205</item>
+        <item>COMP-10073</item>
+    </string-array>
+</resources>

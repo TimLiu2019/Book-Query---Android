@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:paddingTop="8dp"
+    android:paddingEnd="16dp"
+    android:paddingRight="16dp"
+    android:paddingLeft="16dp"
+    android:paddingStart="14dp"
+    tools:context=".List_item"
+    android:paddingBottom="8dp">
+
+    <ImageView
+        android:id="@+id/book_image"
+        android:layout_width="90dp"
+        android:layout_height="140dp"
+        android:layout_gravity="center_vertical"
+        android:gravity="center" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+
+
+        <TextView
+            android:id="@+id/book_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="2"
+            android:fontFamily="sans-serif-black"
+            android:textColor="@color/title"
+            android:textSize="16sp"
+            tools:text="Call Me By Your Name" />
+
+        <TextView
+            android:id="@+id/book_author"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:fontFamily="sans-serif-medium"
+            android:textSize="15sp"
+            tools:text="by Andre Aciman" />
+
+        <TextView
+            android:id="@+id/book_description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="5"
+            android:textSize="12sp"
+            tools:text="Now a Major Motion Picture from Director Luca Guadagnino, Starring Armie Hammer and Timothée Chalamet, and Written by Three-Time OscarTM Nominee James Ivory The Basis of the Oscar-Winning Best Adapted Screenplay A New York Times Bestseller A USA Today Bestseller A Los Angeles Times Bestseller A Vulture Book Club Pick An Instant Classic and One of the Great Love Stories of Our Time Andre Aciman's Call Me by Your Name is the story of a sudden and powerful romance that blossoms between an adolescent boy and a summer guest at his parents’ cliffside mansion on the Italian Riviera. Each is unprepared for the consequences of their attraction, when, during the restless summer weeks, unrelenting currents of obsession, fascination, and desire intensify their passion and test the charged ground between them. Recklessly, the two verge toward the one thing both fear they may never truly find again: total intimacy. It is an instant classic and one of the great love stories of our time." />
+    </LinearLayout>
+
+
+</LinearLayout>
+
+
+
+
+
+
+
+
+
